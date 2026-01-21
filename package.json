@@ -1,0 +1,17 @@
+{
+  "name": "baby-learn-english",
+  "version": "1.0.0",
+  "description": "宝宝学英语小程序",
+  "scripts": {
+    "dev:h5": "vite",
+    "build:h5": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
+}
