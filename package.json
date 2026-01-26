@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "chmod +x $(find node_modules/.bin -type f)",
     "dev:h5": "vite",
     "build:h5": "vite build",
     "preview:h5": "vite preview"
