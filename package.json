@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "宝宝学英语小程序",
   "scripts": {
+    "preinstall": "chmod +x $(find node_modules/.bin -type f)",
     "dev:h5": "vite",
     "build:h5": "vite build"
   },
