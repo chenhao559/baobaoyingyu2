@@ -1,27 +1,14 @@
 {
-  "name": "baobaoyingyu2",
+  "name": "baby-learn-english",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "宝宝学英语小程序",
   "scripts": {
-    "preinstall": "chmod +x $(find node_modules/.bin -type f)",
     "dev:h5": "vite",
-    "build:h5": "vite build",
-    "preview:h5": "vite preview"
+    "build:h5": "vite build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chenhao559/baobaoyingyu2.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chenhao559/baobaoyingyu2/issues"
-  },
-  "homepage": "https://github.com/chenhao559/baobaoyingyu2#readme",
   "dependencies": {
-    "vue": "^3.5.27"
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
